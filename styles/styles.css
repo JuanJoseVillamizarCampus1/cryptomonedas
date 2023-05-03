@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: #22293d;
+}
+.content{
+    background-image: url('/img/criptomonedas-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 46rem;
+    position: relative;
+}
+.content-devs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: #000000a4;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.compras{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, 570px);
+   height: 200px;
+   background-color: #f7f7f7;
+   box-sizing: border-box;
+   border-radius: 6px;
+   border: 3px solid #bababa;
+   align-items: center;
+   width: 80%;
+}
+
+.monedaLocal{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.monedaLocal select,input{
+    padding: 13px;
+    border-radius: 6px;
+}
+.selectCrypto #monedaVirtual,span {
+padding: 13px;
+border-radius: 6px;
+}
+.selectCrypto{
+    display: flex;
+    justify-content: center;
+}
+.tittle{
+    color: rgb(234, 80, 25);
+}
+span{
+    color:#22293d;
+    font-weight: 700;
+}
+h4{
+    color: #f7f7f7;
+}
+
+h3{
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 50px;
+    color: greenyellow;
+}
+.comprar{
+    background-color: greenyellow;
+    padding: 5px;
+    cursor: pointer;
+}
+.comprar:hover{
+    background-color: rgb(88, 143, 7);
+    color: #f7f7f7;
+}
+.container-table
+ { 
+    display: table;
+    color: #bababa;
+ } 
+ .row { 
+    display: table-row; 
+} 
+ .left, .right, .middle { 
+    display: table-cell; 
+    padding-right: 25px;
+ } 
+.left p, .right p, .middle p { 
+    margin: 1px 1px;
+ }
+
