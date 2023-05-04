@@ -100,4 +100,6 @@ h3{
 .left p, .right p, .middle p { 
     margin: 1px 1px;
  }
-
+th,td{
+    padding: 20px;
+}
